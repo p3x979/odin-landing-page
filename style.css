@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #666;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .footer {
+    background-color: #eee;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
