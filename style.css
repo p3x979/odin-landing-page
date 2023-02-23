@@ -14,13 +14,6 @@ a {
   color: #e5e7eb;
 }
 
-.navbar, .hero, .footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  background-color: #1F2937;
-}
-
 .content {
   display: flex;
   flex: 1;
@@ -29,14 +22,49 @@ a {
   justify-content: center;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: #1F2937;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
+  gap:16px;
   font-size: 24px;
   color: #f9faf8;
 }
 
+.header-links {
+  display: flex;
+  align-items: space-between;
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  padding: 24px;
+}
+
 .hero-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-image {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 50%; */
 }
 
 h1 {
@@ -46,7 +74,11 @@ h1 {
 }
 
 button {
+  border: none;
+  border-radius: 8px;
   background-color: #3882f6;
+  padding: 8px 1em;
+  width: 120px;
 }
 
 .quote {
@@ -59,3 +91,9 @@ button {
   background-color: #3882f6;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #1F2937;
+}
