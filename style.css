@@ -45,6 +45,7 @@ a {
 
 .hero {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   background-color: #1F2937;
@@ -61,7 +62,7 @@ a {
 
 .hero-image {
   display: flex;
-  flex: 1;
+  flex: 0 1 50%;
   flex-direction: column;
   justify-content: center;
   /* width: 50%; */
