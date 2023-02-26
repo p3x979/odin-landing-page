@@ -1,9 +1,9 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
@@ -14,12 +14,31 @@ a {
   color: #e5e7eb;
 }
 
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 .content {
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.content-images {
+  display: flex;
+  /* justify-content: center; */
+  gap: 24px;
+  padding: 24px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
